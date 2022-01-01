@@ -1,0 +1,6 @@
+fo=open("helloworld.txt","r")
+a=fo.read()
+fq=open("Uppercase.txt","w")
+fq.write(a.upper())
+fo.close()
+fq.close()

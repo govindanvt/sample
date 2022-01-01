@@ -1,0 +1,5 @@
+strr=input("Enter string:")
+strr=strr.replace('b','$')
+strr=strr.replace('a','$')
+print("Modified String: ")
+print(strr)
